@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: blueviolet;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    font-family: 'Economica';
+    width: 900px;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+li {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+li:hover {
+    background: whitesmoke;
+    color: gray;
+}

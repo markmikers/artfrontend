@@ -1,0 +1,13 @@
+a[href^="http"] {
+    color: #f70;
+}
+
+a[href*="google"] {
+    color: #666;
+}
+
+ul li:nth-child(5):after {
+    content: " ⇱";
+    text-decoration: none;
+    color: #ff7700;
+}

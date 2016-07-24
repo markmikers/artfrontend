@@ -1,0 +1,47 @@
+/*farm*/
+
+#allotment h2 {
+    color: orange;
+    font-size: 30px;
+}
+
+#warehouse h2 {
+    color: blue;
+    font-size: 30px;
+}
+
+ul li {
+    font-weight: bold;
+}
+
+ol li {
+    font-weight: normal;
+}
+
+#allotment .fruits-list {
+    color: gray;
+}
+
+#warehouse .fruits-list {
+    color: green;
+}
+
+.vegetables-list {
+    color: red;
+}
+
+/*students*/
+
+table thead {
+    font-weight: bold;
+}
+
+tbody {
+    color: white;
+    background-color: green;
+}
+
+tbody td:first-child {
+    color: orange;
+    background-color: white;
+}
