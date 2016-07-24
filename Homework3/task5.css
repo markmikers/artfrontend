@@ -1,0 +1,83 @@
+.base {
+  display: inline-block;
+  padding: 5px;
+  background:#ee8129 ;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12.87px 0.13px #0874b2;
+}
+
+.header {
+  color: #ffffff;
+  font-family: 'Trebuchet MS';
+  font-size: 24px;
+}
+
+.name {
+  margin: 10px;
+}
+
+.ad {
+  background: white;
+  padding: 10px;
+  font-family: 'Trebuchet MS';
+  font-size: 24px;
+  color: #35495a;
+  font-size: 24px;
+}
+
+.price {
+  color: #35495a;
+  font: 700 72px / 60px 'Trebuchet MS';
+  margin: 0;
+  padding: 0;
+}
+
+sup {
+  color: #35495a;
+  font: 700 36px / 60px 'Trebuchet MS';
+}
+
+sub {
+  color: #35495a;
+  font: 400 18px / 60px 'Trebuchet MS';
+}
+
+
+.proposals {
+/*  list-style-image:url(images/Shape-4-copy-6.png);*/
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+li {
+  margin: 2px;
+  padding-left: 10px;
+  color: #888c94;
+  font: 400 15px 'Trebuchet MS';
+}
+
+li:nth-child(odd) {
+  background: #edf5fd;
+}
+
+li:nth-child(even) {
+  background-color: #f5f5f6;
+}
+
+.enroll {
+  background-color: #ee8129;
+  border-radius: 5px;
+  box-shadow: 0px 3px 0px 0.00px #b3560b;
+  color: #ffffff;
+  font: 700 14px / 16px 'Trebuchet MS';
+  padding: 10px;
+}
+
+img {
+  padding: 0 5px;
+}
