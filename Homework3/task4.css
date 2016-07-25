@@ -50,8 +50,3 @@ li:hover, li:hover .submenu {
     background: whitesmoke;
     /*float: right;*/
 }
-
-
-.submenu:nth-of-type(1) {
-    
-}

@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+ul, div {
+    list-style-type: none;
+    margin:5px;
+    padding:5px;
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    background: gray;
+    display: inline-block;
+}
+
+li {
+    margin: inherit;
+    padding: inherit;
+    border-radius: 8px;
+}
+
+li.important {
+    font-weight: bold;
+    background: orangered;
+}
+
+li:not(.important) {
+    background: orange;
+}
+
+.travel {
+    display: block;
+}
+
+.places li {
+    display: inline;
+}
+
+.places li:last-child, .places li:first-child {
+    background: none;
+}
