@@ -18,24 +18,27 @@ label[for=blue] {
 
 span.red {
     background-color: red;
+    display: none;
 }
 
 span.green {
     background-color: green;
+    display: none;
 }
 
 span.blue {
     background-color: blue;
+    display: none;
 }
 
 #red:checked ~ span.red {
-    display: none;
+    display: inline;
 }
 
 #green:checked ~ span.green {
-    display: none;
+    display: inline;
 }
 
 #blue:checked ~ span.blue {
-    display: none;
+    display: inline;
 }
