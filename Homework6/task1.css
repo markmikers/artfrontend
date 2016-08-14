@@ -18,7 +18,7 @@
 
 .base:hover {
   display: inline-block;
-  padding: 0px;
+  padding: 1px;
   text-align: center;
   border-radius: 5px;
   box-shadow: 0px 0px 12.87px 0.13px #0874b2;
