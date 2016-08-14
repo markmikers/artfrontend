@@ -1,0 +1,37 @@
+body {
+  background: url(images/Rectangle-35-copy.png), url(images/Layer-66-copy-2.png);
+}
+
+.body-wrapper {
+  text-align: center;
+}
+
+.body-wrapper h1 {
+  color: #3170a8;
+}
+
+
+.body-wrapper h1 span {
+  color: #ee8129;
+}
+
+.section {
+  display: inline-block;
+  height: 98px;
+  width: 365px;
+}
+
+.post {
+  background: #f7f7f7;
+/*  display: inline-block;*/
+  float: right;
+}
+
+.arrow {
+  float: left;
+  width:0;
+  vertical-align: middle;
+/*  display: inline-block;*/
+  border: 15px solid;
+	border-color: transparent #f7f7f7 transparent transparent;
+}

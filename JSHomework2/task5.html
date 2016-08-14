@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task5.html</title>
+</head>
+<body>
+    <script>
+        var limit = 100;
+        for (var i = 2; i <= limit; i++) {
+            for (var j = 2; j <= i; j++) {
+                if (i % j == 0) {
+                    if (i == j) {
+                        console.log(i);
+                    } else {
+                        break;
+                    };
+                };
+            };
+        };
+    </script>
+</body>
+</html>
