@@ -2,6 +2,10 @@ body {
   background: url(images/Rectangle-35-copy.png), url(images/Layer-66-copy-2.png);
 }
 
+.body-wrapper > div {
+    display: inline-block;
+}
+
 .body-wrapper {
   text-align: center;
 }
@@ -15,23 +19,58 @@ body {
   color: #ee8129;
 }
 
+.client {
+/*    line-height: 100px;*/
+}
+
+.client > * {
+    vertical-align: middle;
+    line-height: normal;
+}
+
 .section {
-  display: inline-block;
-  height: 98px;
-  width: 365px;
+  display: inline-block; 
+    vertical-align: middle;
 }
 
 .post {
   background: #f7f7f7;
-/*  display: inline-block;*/
+  display: inline;
   float: right;
+    width: 365px;
+    height: 98px;
 }
 
 .arrow {
-  float: left;
   width:0;
-  vertical-align: middle;
-/*  display: inline-block;*/
+  display: inline-block;
   border: 15px solid;
 	border-color: transparent #f7f7f7 transparent transparent;
+}
+
+
+
+.test {
+    background:yellow;
+    margin:10px;
+    line-height:100px;
+}
+.test > * {
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.test-arrow {
+  width:0;
+  display: inline-block;
+  border: 15px solid;
+    border-color: transparent #f7f7f7 transparent transparent;
+}
+
+a {
+    background-color:#FFF;
+    height:20px;
+    display:inline-block;
+    border:solid black 1px;
+    padding:5px;
 }
