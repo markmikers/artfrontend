@@ -59,22 +59,28 @@ body {
     background: #f7f7f7;
     display: inline-block;
     width: 300px;
-    height: 88px;
+    height: 98px;
     text-align: justify;
+    position: relative;
+    margin-left: 25px;
     visibility: hidden;
-    outline: 5px solid #f7f7f7;
+    float: right;
+}
+
+.comment:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 16px solid;
+    border-color: transparent #f7f7f7 transparent transparent;
+    margin-left: -30px;
+    margin-top: 34px;
 }
 
 .text {
     padding: 0 5px;
     margin: 5px 5px 0 5px;
-}
-
-.arrow {
-    display: inline-block;
-    border: 15px solid;
-    border-color: transparent #f7f7f7 transparent transparent;
-    visibility: hidden;
 }
 
 .background-shader {
