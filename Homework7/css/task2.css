@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav.navbar {
+  background: #ffffff;
+}
+
+.navbar-brand {
+  font-family: FuturaBT;
+}
+
+.company {
+  color: #ee8129;
+}
+
+.name {
+  color: #3070a8;
+}
+
+.navbar-right {
+  font-family: OpenSans;
+}
+
+nav li.active {
+  border-bottom: 5px solid #3070a8;
+}
+
+.jumbotron {
+
+}
+
+#specialist {
+  text-align: center;
+  background: url(../images/laptop.png);
+}
+
+#specialist h3 {
+  color: #ffffff;
+  font: 300 36px FuturaBT;
+}
+
+#specialist h2 {
+  color: #ffffff;
+  font: 700 48px FuturaBT;
+}
+
+#specialist p {
+  color: #ffffff;
+  font: italic 20px / 30px Calibri;
+}
+
+#specialist a {
+  color: #ffffff;
+  font: 600 16px OpenSans;
+  border: 1px solid rgba(238, 129, 41, 0.5);
+}
+
+#advantages {
+ text-align: center;
+}
+
+#advantages h2 {
+  color: #40525c;
+  font: 700 30px / 25px 'Trebuchet MS';
+}
+
+#advantages .thumbnail {
+  border: none;
+}
+
+#advantages .thumbnail h3 {
+  color: #3070a8;
+  font: 300 30.06px FuturaBT;
+}
+
+#advantages .thumbnail p {
+  color: #999999;
+  font: 400 14px / 25px OpenSans;
+}
+
+#people {
+/*  background: url(../images/people.png);*/
+/*  background: rgba(0, 0, 0, 0.5) url(../images/people.jpg) no-repeat left top;*/
+  position: relative;
+}
+
+#people {
+  position: absolute;
+}
+
+#people .people-shading {
+  position: absolute;
+  width: 100%;
+}
+
+#people h2 {
+  color: #ee8129;
+  font: 300 26px / 48px FuturaBT;
+}
+
+#people h3 {
+  color: #ffffff;
+  font: italic 19px / 30px OpenSans;
+}
+
+#people ul {
+  color: #9d9d9d;
+  font: 400 14px / 30px OpenSans;
+}
+
+#people ul li:nth-child(2) {
+  color: #3070a8;
+}
+
+/*PASTE SECTIONS HERE*/
+
+#pre-footer {
+
+}
+
+#pre-footer .address-col {
+  
+}
+
+#pre-footer .map-col {
+  overflow: hidden;
+}
+
+#pre-footer .address-col .address-list {
+  list-style-type: none;
+  color: #666666;
+  font: 600 14px / 40px OpenSans;
+}
+
+#pre-footer .address-col .address-list li:first-child {
+  list-style-image: url(images/Layer-97.png)
+}
+
+#pre-footer .address-col .address-list li:last-child {
+  list-style-image: url(images/Vector-Smart-Object.png)
+}
+
+#pre-footer .address-col .address-list li:nth-child(5) {
+  list-style-image: url(images/asdf.png)
+}
+
+#pre-footer .address-col .social-networks-list li{
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+#pre-footer .address-col .social-networks-list .facebook{
+  font-size: 2em;
+  color: #ffffff;
+  background: #4967a9;
+}
+
+#pre-footer .address-col .social-networks-list .twitter{
+  font-size: 2em;
+  color: #ffffff;
+  background: #1ab2e8;
+}
+
+#pre-footer .address-col .social-networks-list .linkedin {
+  font-size: 2em;
+  color: #ffffff;
+  background: #007ab9;
+}
+
+footer {
+  background: #3070a8;
+  text-align: center;
+  color: #ffffff;
+}
+
+footer span {
+  color: #1d1b1b;
+}
