@@ -1,10 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Final Task</title>
+  <link rel="stylesheet" href="css/preloader.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script src="https://rawgit.com/padolsey/jQuery-Plugins/master/sortElements/jquery.sortElements.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/json2html.js"></script>
+  <script src="js/jquery.json2html.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
-
+  <div id="page-preloader"><h1>Please, wait</h1><span class="spinner"></span></div>
+  
+  <header><h1>Clients database</h1></header>
+  <div class="table-length">
+    <h3>Number of clients is: </h3>
+  </div>
+  <div class="container for-table">
+    <table class="table table-bordered table-hover" id="my-table">
+      <thead>
+        <tr>
+          <th id="first-name">First Name <i class="fa fa-sort-asc alternating" aria-hidden="true"><i class="fa fa-sort bg" aria-hidden="true"></i></i></th>
+          <th id="last-name">Last Name <i class="fa fa-sort-asc alternating" aria-hidden="true"><i class="fa fa-sort bg" aria-hidden="true"></i></i></th>
+          <th id="age">Age (Birth date) <i class="fa fa-sort-asc alternating" aria-hidden="true"><i class="fa fa-sort bg" aria-hidden="true"></i></i></th>
+          <th id="phone">Phone number <i class="fa fa-sort-asc alternating" aria-hidden="true"><i class="fa fa-sort bg" aria-hidden="true"></i></i></th>
+          <th id="address">Address <i class="fa fa-sort-asc alternating" aria-hidden="true"><i class="fa fa-sort bg" aria-hidden="true"></i></i></th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </div>
+  
+  <footer><p>Copyright (C) 2014 Mark Mikers</p></footer>
 </body>
 </html>

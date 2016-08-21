@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  font-weight: 600;
+  background-color: cornsilk;
+}
+
+header, .table-length {
+  text-align: center;
+  background-color: beige;
+}
+
+header h1 {
+  border-bottom: 3px solid grey;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header, footer, .table-length, #my-table td {
+  padding: 5px;
+}
+
+.table-length {
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.35);
+}
+
+table {
+  margin-top: 10px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+  background-color: white;
+}
+
+.table-length span {
+  padding: 2px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  background-color: white;
+}
+
+th:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
+th i {
+  position: relative;
+}
+
+th i .bg {
+  position: absolute;
+  left: 0;
+}
+
+footer {
+  border-top: 1px solid grey;
+  padding-top: 10px;
+  text-align: center;
+  background-color: darkslategray;
+  color: azure;
+  height: 100px;
+}
+
+footer p {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 640px) {
+  table {
+    overflow-x: auto;
+    display: block;
+  }
+}
