@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 3em;
+  background-color: cornsilk;
+}
+
+header {
+  text-align: center;
+  background-color: beige;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.35);
+}
+
+header h1 {
+  padding-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header, footer, #my-table td {
+  padding: 5px;
+}
+
+table {
+  margin-top: 10px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+  background-color: white;
+}
+
+table tr td:first-child {
+  vertical-align: middle;
+}
+
+table tr .homework {
+  text-align: center;
+}
+
+th:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
+th i {
+  position: relative;
+}
+
+th i .bg {
+  position: absolute;
+  left: 0;
+}
+
+footer {
+  border-top: 1px solid grey;
+  padding-top: 10px;
+  text-align: center;
+  background-color: darkslategray;
+  color: azure;
+  height: 100px;
+}
+
+footer p {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 640px) {
+  table {
+    overflow-x: auto;
+    display: block;
+  }
+}
