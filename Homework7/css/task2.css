@@ -287,6 +287,7 @@ nav li.active {
 #clients {
   font-family: 'Trebuchet MS';
   text-align: center;
+  background: -webkit-linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/pattern.png), url(../images/collage.png);
   background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/pattern.png), url(../images/collage.png);
   overflow: hidden;
   position: relative;
