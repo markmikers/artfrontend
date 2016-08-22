@@ -3,10 +3,13 @@
  */
 
 $(document).ready(function() {
+//  preloader
   var $preloader = $('#page-preloader'),
   $spinner = $preloader.find('.spinner');
   $spinner.fadeOut();
   $preloader.delay(350).fadeOut('slow');
+  
+//  loading json and creating the table
   $.getJSON('https://raw.githubusercontent.com/markmikers/artfrontend/master/FinalTask/json/echo.json', function(json) {
     $('.table-length h3').append("<span><strong>" + json.values.length + "</strong></span>");
     for (i = 0; i < json.values.length; i++) {
@@ -14,6 +17,7 @@ $(document).ready(function() {
     };
   });
 
+//  sorting module
   var table = $('table');
   $('#first-name, #last-name, #age, #phone, #address')
   .wrapInner('<span title="sort this column"/>')
@@ -34,6 +38,7 @@ $(document).ready(function() {
       inverse = !inverse;
     });
   });
+  
   $('#first-name, #last-name, #age, #phone, #address').click(function() {
     $('th').css('background-color', 'white');
     $(this).css('background-color', 'navajowhite');
