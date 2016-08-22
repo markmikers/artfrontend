@@ -1,33 +1,33 @@
 span {
-    color: white;
+    color: #ffffff;
     padding: 4px;
     border-radius: 50px;
 }
 
 label[for=red] {
-    color: red;
+    color: #ff0000;
 }
 
 label[for=green] {
-    color: green;
+    color: #00ff00;
 }
 
 label[for=blue] {
-    color: blue;
+    color: #0000ff;
 }
 
 span.red {
-    background-color: red;
+    background-color: #ff0000;
     display: none;
 }
 
 span.green {
-    background-color: green;
+    background-color: #00ff00;
     display: none;
 }
 
 span.blue {
-    background-color: blue;
+    background-color: #0000ff;
     display: none;
 }
 

@@ -1,16 +1,16 @@
 body {
   font-family: sans-serif;
   font-weight: 600;
-  background-color: cornsilk;
+  background-color: #fff8dc;
 }
 
 header, .table-length {
   text-align: center;
-  background-color: beige;
+  background-color: #f5f5dc;
 }
 
 header h1 {
-  border-bottom: 3px solid grey;
+  border-bottom: 3px solid #808080;
   padding-bottom: 5px;
   margin-left: 20px;
   margin-right: 20px;
@@ -27,14 +27,14 @@ header, footer, .table-length, #my-table td {
 table {
   margin-top: 10px;
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .table-length span {
   padding: 2px;
-  border: 1px solid grey;
+  border: 1px solid #808080;
   border-radius: 2px;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 th:hover {
@@ -52,10 +52,10 @@ th i .bg {
 }
 
 footer {
-  border-top: 1px solid grey;
+  border-top: 1px solid #808080;
   padding-top: 10px;
   text-align: center;
-  background-color: darkslategray;
+  background-color: #2f4f4f;
   color: azure;
   height: 100px;
 }
@@ -78,16 +78,19 @@ footer p {
   }
   
   tr td:first-child {
-    background: #f0f0f0; font-weight:bold;font-size:1.3em;
+    background: #f0f0f0;
+    font-weight: bold;
+    font-size: 1.3em;
   }
   
   tbody td {
-    display: block;  text-align:center;
+    display: block;
+    text-align: center;
   }
   
   tbody td:before { 
     content: attr(data-th); 
     display: block;
-    text-align:center;  
+    text-align: center;  
   }
 }

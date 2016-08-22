@@ -4,11 +4,11 @@
 }
 
 .background {
-    background: blueviolet;
+    background: #8a2be2;
 }
 
 ul {
-    color: white;
+    color: #ffffff;
     list-style-type: none;
     font-family: 'Economica';
     font-weight: bold;
@@ -24,8 +24,8 @@ li {
 }
 
 li:hover {
-    background: whitesmoke;
-    color: gray;
+    background: #f5f5f5;
+    color: #808080;
 }
 
 li:last-child {

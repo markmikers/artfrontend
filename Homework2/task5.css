@@ -6,10 +6,10 @@ ul, div {
     list-style-type: none;
     margin:5px;
     padding:5px;
-    color: white;
+    color: #ffffff;
     font-size: larger;
     font-family: sans-serif;
-    background: gray;
+    background: #808080;
     display: inline-block;
 }
 
@@ -21,11 +21,11 @@ li {
 
 li.important {
     font-weight: bold;
-    background: orangered;
+    background: #ff4500;
 }
 
 li:not(.important) {
-    background: orange;
+    background: #ffa500;
 }
 
 .travel {

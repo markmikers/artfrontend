@@ -317,7 +317,7 @@ nav li.active {
 }
 
 #clients .regalies {
-  border-bottom: 2px dotted grey;
+  border-bottom: 2px dotted #808080;
   height: 1.5em;
   margin: 10px 10px;
   padding-bottom: 0px;

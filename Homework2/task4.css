@@ -1,12 +1,12 @@
 /*farm*/
 
 #allotment h2 {
-    color: orange;
+    color: #ffa500;
     font-size: 30px;
 }
 
 #warehouse h2 {
-    color: blue;
+    color: #0000ff;
     font-size: 30px;
 }
 
@@ -19,15 +19,15 @@ ol li {
 }
 
 #allotment .fruits-list {
-    color: gray;
+    color: #808080;
 }
 
 #warehouse .fruits-list {
-    color: green;
+    color: #00ff00;
 }
 
 .vegetables-list {
-    color: red;
+    color: #ff0000;
 }
 
 /*students*/
@@ -37,11 +37,11 @@ table thead {
 }
 
 tbody {
-    color: white;
-    background-color: green;
+    color: #ffffff;
+    background-color: #00ff00;
 }
 
 tbody td:first-child {
-    color: orange;
-    background-color: white;
+    color: #ffa500;
+    background-color: #ffffff;
 }

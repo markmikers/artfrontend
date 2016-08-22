@@ -8,26 +8,26 @@
     padding:10px;
     text-align: center;
     font-family: sans-serif;
-    color: darkviolet;
+    color: #9400d3;
 }
 
 ul {
     list-style-type: none;
-    background: whitesmoke;
+    background: #f5f5f5;
 }
 
 li {
     display: inline-block;
     padding: 0.5em 0.75em;
-    border: 1px solid darkgray;
+    border: 1px solid #a9a9a9;
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 li:hover {
-    color: white;
-    background: darkviolet;
+    color: #ffffff;
+    background: #9400d3;
 }
 
 li:first-child, li:nth-child(2), li:nth-last-child(2), li:last-child {
